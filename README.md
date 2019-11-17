@@ -1,6 +1,8 @@
 # TSAI_Repository
 This repository is for TSAI assignments
 
+Assignment test data output - [0.03263749138193011, 0.992]
+
 1.	Convolution - Convolution convolve the input(zip) and pass its result to the next layer.
 2.	Filters/Kernels - A kernel is a smaller-sized matrix in comparison to the input dimensions of the image, that consists of real valued                        entries.
 3.	Epochs – it is number of times (number of cycles to access database) we are accessing the database
