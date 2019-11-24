@@ -1,0 +1,77 @@
+Logs for 20 Epochs
+
+60000/60000 [==============================] - 99s 2ms/step - loss: 0.1397 - acc: 0.9512 - val_loss: 0.0320 - val_acc: 0.9909
+Epoch 7/20
+
+Epoch 00007: LearningRateScheduler setting learning rate to 0.0010295127.
+60000/60000 [==============================] - 99s 2ms/step - loss: 0.1310 - acc: 0.9528 - val_loss: 0.0289 - val_acc: 0.9919
+Epoch 8/20
+
+Epoch 00008: LearningRateScheduler setting learning rate to 0.0009279307.
+60000/60000 [==============================] - 98s 2ms/step - loss: 0.1237 - acc: 0.9539 - val_loss: 0.0252 - val_acc: 0.9930
+Epoch 9/20
+
+Epoch 00009: LearningRateScheduler setting learning rate to 0.0008445946.
+60000/60000 [==============================] - 98s 2ms/step - loss: 0.1207 - acc: 0.9531 - val_loss: 0.0248 - val_acc: 0.9925
+Epoch 10/20
+
+Epoch 00010: LearningRateScheduler setting learning rate to 0.0007749935.
+60000/60000 [==============================] - 100s 2ms/step - loss: 0.1149 - acc: 0.9553 - val_loss: 0.0241 - val_acc: 0.9924
+Epoch 11/20
+
+Epoch 00011: LearningRateScheduler setting learning rate to 0.0007159905.
+60000/60000 [==============================] - 100s 2ms/step - loss: 0.1102 - acc: 0.9549 - val_loss: 0.0217 - val_acc: 0.9932
+Epoch 12/20
+
+Epoch 00012: LearningRateScheduler setting learning rate to 0.000665336.
+60000/60000 [==============================] - 100s 2ms/step - loss: 0.1071 - acc: 0.9561 - val_loss: 0.0220 - val_acc: 0.9933
+Epoch 13/20
+
+Epoch 00013: LearningRateScheduler setting learning rate to 0.0006213753.
+60000/60000 [==============================] - 101s 2ms/step - loss: 0.1034 - acc: 0.9568 - val_loss: 0.0220 - val_acc: 0.9933
+Epoch 14/20
+
+Epoch 00014: LearningRateScheduler setting learning rate to 0.0005828638.
+60000/60000 [==============================] - 101s 2ms/step - loss: 0.1021 - acc: 0.9569 - val_loss: 0.0217 - val_acc: 0.9934
+Epoch 15/20
+
+Epoch 00015: LearningRateScheduler setting learning rate to 0.0005488474.
+60000/60000 [==============================] - 100s 2ms/step - loss: 0.0992 - acc: 0.9579 - val_loss: 0.0218 - val_acc: 0.9938
+Epoch 16/20
+
+Epoch 00016: LearningRateScheduler setting learning rate to 0.0005185825.
+60000/60000 [==============================] - 103s 2ms/step - loss: 0.0972 - acc: 0.9570 - val_loss: 0.0204 - val_acc: 0.9937
+Epoch 17/20
+
+Epoch 00017: LearningRateScheduler setting learning rate to 0.000491481.
+60000/60000 [==============================] - 102s 2ms/step - loss: 0.0992 - acc: 0.9567 - val_loss: 0.0208 - val_acc: 0.9935
+Epoch 18/20
+
+Epoch 00018: LearningRateScheduler setting learning rate to 0.0004670715.
+60000/60000 [==============================] - 103s 2ms/step - loss: 0.0980 - acc: 0.9561 - val_loss: 0.0212 - val_acc: 0.9936
+Epoch 19/20
+
+Epoch 00019: LearningRateScheduler setting learning rate to 0.0004449718.
+60000/60000 [==============================] - 103s 2ms/step - loss: 0.0969 - acc: 0.9558 - val_loss: 0.0191 - val_acc: 0.9940
+Epoch 20/20
+
+Epoch 00020: LearningRateScheduler setting learning rate to 0.000424869.
+60000/60000 [==============================] - 103s 2ms/step - loss: 0.0956 - acc: 0.9569 - val_loss: 0.0202 - val_acc: 0.9942
+<keras.callbacks.History at 0x7f8648ef3e10>
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+2. Model evaluate result
+
+score = model.evaluate(X_test, Y_test, verbose=0)
+print(score)
+
+[0.020243863053782844, 0.9942]
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+3. strategy you have taken to achieve the said results
+
+Tried to achieve by using maxpooling after third layer and using dropouts
